@@ -8,12 +8,12 @@ class App < Sinatra::Base
   end
 
   get "/new" do
-
+    
     erb :create_puppy.erb
   end
 
-  post "/" do
-
+  post "/new" do
+    erb :display_puppy.erb
   end
 
 end
